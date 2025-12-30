@@ -1,0 +1,37 @@
+########################
+# Datasets / archives
+########################
+data/
+dataset/
+datasets/
+lesson*/data/*
+CamVid*/
+**/CamVid*/
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+########################
+# Training artifacts
+########################
+lightning_logs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+########################
+# Jupyter / Python
+########################
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+########################
+# OS / misc
+########################
+.DS_Store
+Thumbs.db
